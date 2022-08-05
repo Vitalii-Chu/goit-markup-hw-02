@@ -7,5 +7,10 @@
 /* вторинний фон F5F4FA */
 body{
     background-color: #F5F5F5;
-    color:#212121 ;
+    color:#757575 ;
+}
+
+
+ul{
+   list-style: none;
 }
