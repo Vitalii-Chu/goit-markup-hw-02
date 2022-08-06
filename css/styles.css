@@ -34,8 +34,8 @@ ul {
   color: #2196f3;
 }
 
-.site-nav .link-nav.current{
-    color: #2196f3;
+.site-nav .link-nav.current {
+  color: #2196f3;
 }
 
 .auth-nav .link-auth {
@@ -78,27 +78,54 @@ ul {
   height: 50px;
 }
 
-
 /* сторінка портфоліо */
-
 
 /* portfolio nav */
 
-.portfolio-nav .portfolio-link{
+.logo:hover {
+  color: #2196f3;
+}
+.portfolio-nav .portfolio-link {
   color: #757575;
 }
 
 .portfolio-nav .portfolio-link:hover,
-.portfolio-nav .portfolio-link:focus{
-color: #2196f3;
+.portfolio-nav .portfolio-link:focus {
+  color: #2196f3;
 }
 
-.portfolio-auth .portfolio-case{
+.portfolio-auth .portfolio-case {
   color: #757575;
 }
 
 .portfolio-auth .portfolio-case:hover,
-.portfolio-auth .portfolio-case:focus{
+.portfolio-auth .portfolio-case:focus {
   color: #2196f3;
 }
 
+.portfolio-nav .portfolio-link.current{
+  color: #2196f3
+}
+/* button */
+.button {
+  
+}
+
+.button-primary {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.button-primary:hover,
+.button-primary:focus{
+  color: #188ce8;
+}
+
+.button-secondary{
+   background-color:#F5F4FA;
+   color: #212121;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: #2196f3;;
+}
