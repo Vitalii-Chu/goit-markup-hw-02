@@ -7,15 +7,17 @@
 /* вторинний фон F5F4FA */
 
 :root {
-  --primary-text-color: #757575;
-  --accent-color: #2196f3;
+  --primary-text-color:#757575;
+  --accent-color:#2196f3;
 }
-/* основна сторінка */
 body {
   background-color: #f5f5f5;
   color: #757575;
+  font-family:Roboto, sans-serif;
 }
 
+
+/* основна сторінка */
 .logo:hover {
   color: #2196f3;
 }
@@ -115,15 +117,6 @@ ul {
   
 }
 
-.button-primary {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.button-primary:hover,
-.button-primary:focus{
-  color: #188ce8;
-}
 
 .button-secondary{
    background-color:#F5F4FA;
@@ -131,5 +124,11 @@ ul {
 }
 .button-secondary:hover,
 .button-secondary:focus {
-  color: #2196f3;;
+  color: #F5F4FA;
+  background-color: #2196f3;
+}
+/* portfolio */
+
+.portfolio-tittle{
+  color:#212121;
 }
